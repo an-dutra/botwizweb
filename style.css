@@ -30,13 +30,17 @@ nav ul {
   justify-content: center;
 }
 
-nav ul li {
-  margin: 0 10px;
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
 
-nav ul li a {
-  color: white;
-  text-decoration: none;
+nav ul li a:hover {
+  background-color: #003865;
 }
 
 main {
